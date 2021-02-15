@@ -1,0 +1,158 @@
+header {
+	position:relative;
+    color: red;
+    background-color: #444B54;
+    padding: 15px;
+    text-align: center;
+}
+
+header img{
+   width: 75px;
+   heigth: 75px;
+   position: absolute;
+   margin-left: 25px;
+}
+
+header .mainMenu{
+	color: red;
+	position: absolute;
+	bottom: 9px;
+	right: 9px;
+}
+
+header .saludo {
+	color: red;
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	
+}
+
+/* ************************************** */
+
+#logIn {
+    border: 1px solid #444B54;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#logIn form {
+    padding: 40px;
+    padding-top: 10px;
+}
+
+#logIn p {
+    margin-bottom: 5px;
+}
+
+/* ************************************** */
+
+#mainMenu {
+	margin-top: 20px;
+}
+
+#mainMenu:after {
+            display: table;
+            content: '';
+            clear: both;            
+}
+
+#mainMenu div{
+	border: 3px solid #444B54;
+	display: block;
+	float: left;
+	width: 47%;
+	margin: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#mainMenu .rght{
+	float: right;
+}
+
+#mainMenu div:hover{
+	cursor: pointer;
+	color: red;
+    background-color:  rgba(68, 75, 84, 0.5);
+}
+
+/* ************************************** */
+
+#catalogo {
+	border: 2px solid #444B54;
+	width: 99.5%;
+	margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 150px;
+}
+
+#catalogo:after {
+	display: table;
+    content: '';
+    clear: both;
+}
+
+
+#catalogo #buscador {
+	width: 84.9%;
+	height: 90px;
+	margin-left: 15%;
+}
+
+#catalogo #buscador form input {
+}
+
+#catalogo #buscador:after {
+	display: table;
+    content: '';
+    clear: both;
+}
+
+
+#catalogo #tabla_libros{
+	display: block;
+	float: left;
+	border: 1px solid red;
+	border-right: 0px solid red;
+	margin-top: 40px;
+	margin-left: 15%;
+	margin-right: 3px;
+    border-collapse: collapse;
+}
+
+#catalogo table tr td{
+	border: 2px solid red;
+	min-width: 70px;
+	text-align: center;
+	padding: 3px;
+}
+
+#catalogo #tabla_copias {
+	display: block;
+	float: left;
+	border: 1px solid red;
+	border-left: 0px solid red;
+	margin-top: 40px;
+    border-collapse: collapse;
+}
+
+/* ************************************** */
+
+#misPrestamos table {
+	margin-top: 28px;
+	border: 1px solid red;
+    border-collapse: collapse;
+}
+
+#misPrestamos table tr td{
+	border: 2px solid red;
+	min-width: 70px;
+	text-align: center;
+	padding: 3px;
+}
+
